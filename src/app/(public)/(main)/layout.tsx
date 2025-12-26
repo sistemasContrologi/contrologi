@@ -14,15 +14,15 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Contrologi | La plataforma digital líder en logística de carga en México.",
+    default: "Contrologi | Contrologi es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
     template: "%s | Contrologi",
   },
-  description: "La plataforma digital líder en logística de carga en México.",
+  description: "Contrologi es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
   keywords: ['software a la medida', 'plataforma digital', 'contrologi', 'blueservices', 'carta porte', 'logística'],
   openGraph: {
     title: "Contrologi",
     description:
-      "La plataforma digital líder en logística de carga en México.",
+      "Contrologi es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
     url: "https://contrologi.vercel.app/",
     siteName: "Contrologi",
     images: [

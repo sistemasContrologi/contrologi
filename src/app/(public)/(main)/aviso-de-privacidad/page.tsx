@@ -1,10 +1,18 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 
-export const metadata = {
-    title: 'Aviso de privacidad',
-    description: 'Aviso de privacidad',
+export const metadata: Metadata = {
+    title: "Aviso de Privacidad",
+    description:
+        "Consulta el Aviso de Privacidad de Contrologi y conoce cómo protegemos, utilizamos y resguardamos tus datos personales conforme a la ley.",
+    openGraph: {
+        title: "Aviso de Privacidad | Contrologi",
+        description:
+            "Conoce cómo Contrologi recopila, usa y protege tus datos personales de acuerdo con la legislación aplicable.",
+        url: "https://contrologi.vercel.app/aviso-de-privacidad",
+    },
 };
 
 export default function PoliticaPrivacidadPage() {
@@ -134,22 +142,22 @@ export default function PoliticaPrivacidadPage() {
                             <div>
                                 <h3 className="font-semibold">Otros datos</h3>
                                 <ul className="list-disc pl-6">
-                                <li>Datos que el Cliente y/o los Usuarios habilitados ingresen o generen a través de los Servicios.</li>
-                                <li>Datos recabados a través de cookies.</li>
-                                <li>Dirección IP.</li>
-                                <li>Identificación para el acceso a la cuenta del usuario.</li>
-                                <li>Preferencias y personalización de la cuenta del usuario.</li>
-                                <li>Tipo de dispositivo utilizado para acceder al sitio web.</li>
-                                <li>Tipo de navegador.</li>
-                                <li>Sistema operativo.</li>
-                                <li>Momento de acceso al sitio web.</li>
-                                <li>Tiempo de navegación en el sitio web.</li>
-                                <li>Páginas web visitadas.</li>
-                                <li>Módulos utilizados.</li>
-                                <li>Información consultada.</li>
-                                <li>Lugar de acceso.</li>
-                                <li>Página o búsqueda de referencia de acceso.</li>
-                            </ul>
+                                    <li>Datos que el Cliente y/o los Usuarios habilitados ingresen o generen a través de los Servicios.</li>
+                                    <li>Datos recabados a través de cookies.</li>
+                                    <li>Dirección IP.</li>
+                                    <li>Identificación para el acceso a la cuenta del usuario.</li>
+                                    <li>Preferencias y personalización de la cuenta del usuario.</li>
+                                    <li>Tipo de dispositivo utilizado para acceder al sitio web.</li>
+                                    <li>Tipo de navegador.</li>
+                                    <li>Sistema operativo.</li>
+                                    <li>Momento de acceso al sitio web.</li>
+                                    <li>Tiempo de navegación en el sitio web.</li>
+                                    <li>Páginas web visitadas.</li>
+                                    <li>Módulos utilizados.</li>
+                                    <li>Información consultada.</li>
+                                    <li>Lugar de acceso.</li>
+                                    <li>Página o búsqueda de referencia de acceso.</li>
+                                </ul>
                             </div>
 
                         </div>

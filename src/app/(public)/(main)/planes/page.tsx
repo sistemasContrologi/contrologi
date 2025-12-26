@@ -6,11 +6,19 @@ import Section3 from "@/components/pages/(main)/planes/Section3";
 import SectionPlanes2 from "@/components/pages/(main)/planes/SectionPlanes2";
 import Empresas from "@/components/pages/(main)/Empresas";
 import InformacionSection from "@/components/pages/(main)/Informacion";
+import { Metadata } from "next";
 
 
-export const metadata = {
- title: 'Planes',
- description: 'Planes uwu',
+export const metadata: Metadata = {
+  title: "Planes y precios",
+  description:
+    "Conoce los planes de Contrologi y elige la solución ideal para tu logística de carga. Escala tus operaciones con tecnología flexible y segura.",
+  openGraph: {
+    title: "Planes y precios | Contrologi",
+    description:
+      "Elige el plan de Contrologi que mejor se adapte a tu operación logística y haz crecer tu negocio con control total.",
+    url: "https://contrologi.vercel.app/planes",
+  },
 };
 
 export default function PlanesPage() {
