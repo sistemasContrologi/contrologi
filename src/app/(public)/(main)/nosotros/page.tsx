@@ -17,6 +17,17 @@ export const metadata: Metadata = {
     description:
       "Conoce al equipo detrás de Contrologi y nuestra misión de digitalizar la logística de carga en México.",
     url: "https://contrologi.vercel.app/nosotros",
+    siteName: "Contrologi",
+    images: [
+      {
+        url: "https://contrologi.vercel.app/img/contrologi-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Contrologi",
+      },
+    ],
+    locale: "es_MX",
+    type: "website",
   },
 };
 

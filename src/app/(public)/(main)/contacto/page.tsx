@@ -14,6 +14,17 @@ export const metadata: Metadata = {
     description:
       "Habla con nuestro equipo y empieza a optimizar tu logística de carga con Contrologi.",
     url: "https://contrologi.vercel.app/contacto",
+    siteName: "Contrologi",
+    images: [
+      {
+        url: "https://contrologi.vercel.app/img/contrologi-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Contrologi",
+      },
+    ],
+    locale: "es_MX",
+    type: "website",
   },
 };
 

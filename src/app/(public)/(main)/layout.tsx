@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Contrologi | Contrologi es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
+    default: "Contrologi | Es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
     template: "%s | Contrologi",
   },
   description: "Contrologi es la plataforma digital líder en logística de carga en México. Optimiza, controla y automatiza tus operaciones logísticas, carta porte y gestión de transporte en un solo sistema.",
