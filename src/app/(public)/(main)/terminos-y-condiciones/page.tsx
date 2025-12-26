@@ -1,11 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 
-export const metadata = {
-    title: 'Términos y condiciones',
-    description: 'Términos y condiciones',
+export const metadata: Metadata = {
+    title: "Términos y Condiciones",
+    description:
+        "Lee los Términos y Condiciones de Contrologi que regulan el uso de nuestra plataforma y servicios digitales de logística.",
+    openGraph: {
+        title: "Términos y Condiciones | Contrologi",
+        description:
+            "Consulta los términos legales que rigen el uso de la plataforma digital Contrologi.",
+        url: "https://contrologi.vercel.app/terminos-y-condiciones",
+    },
 };
+
 
 const actividadesProhibidas = [
     "Modificar, sustituir, cambiar o en forma alguna alterar el Contenido Contrologi.",
