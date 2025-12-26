@@ -11,7 +11,17 @@ export const metadata: Metadata = {
         title: "Términos y Condiciones | Contrologi",
         description:
             "Consulta los términos legales que rigen el uso de la plataforma digital Contrologi.",
-        url: "https://contrologi.vercel.app/terminos-y-condiciones",
+        url: "https://contrologi.vercel.app/terminos-y-condiciones", siteName: "Contrologi",
+        images: [
+            {
+                url: "https://contrologi.vercel.app/img/contrologi-preview.png",
+                width: 1200,
+                height: 630,
+                alt: "Contrologi",
+            },
+        ],
+        locale: "es_MX",
+        type: "website",
     },
 };
 

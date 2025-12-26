@@ -17,7 +17,18 @@ export const metadata: Metadata = {
     title: "Planes y precios | Contrologi",
     description:
       "Elige el plan de Contrologi que mejor se adapte a tu operación logística y haz crecer tu negocio con control total.",
-    url: "https://contrologi.vercel.app/planes",
+    url: "https://contrologi.vercel.app/planes", 
+    siteName: "Contrologi",
+    images: [
+      {
+        url: "https://contrologi.vercel.app/img/contrologi-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Contrologi",
+      },
+    ],
+    locale: "es_MX",
+    type: "website",
   },
 };
 
@@ -31,7 +42,7 @@ export default function PlanesPage() {
       <Section3 />
 
       <Section5 />
-      
+
       <Testimonios />
 
       <Empresas />

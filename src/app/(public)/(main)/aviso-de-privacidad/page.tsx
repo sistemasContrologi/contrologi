@@ -12,6 +12,17 @@ export const metadata: Metadata = {
         description:
             "Conoce cómo Contrologi recopila, usa y protege tus datos personales de acuerdo con la legislación aplicable.",
         url: "https://contrologi.vercel.app/aviso-de-privacidad",
+        siteName: "Contrologi",
+        images: [
+            {
+                url: "https://contrologi.vercel.app/img/contrologi-preview.png",
+                width: 1200,
+                height: 630,
+                alt: "Contrologi",
+            },
+        ],
+        locale: "es_MX",
+        type: "website",
     },
 };
 
