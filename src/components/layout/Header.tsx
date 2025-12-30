@@ -8,7 +8,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Menu, X } from "lucide-react";
 import { useModal } from "@/config/hooks/useModal";
 import Modal from "@/components/ui/Modal";
-import FormContacto from "@/config/forms/formContacto";
+import FormContacto from "@/config/forms/(main)/formContacto";
 
 const navigation = [
   { label: "Inicio", href: "/" },

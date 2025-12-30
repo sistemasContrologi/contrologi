@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/layout/ScrollTop";
 import SmoothScroll from "@/components/providers/SmoothScroll";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -48,6 +49,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} antialiased`}>
         <SmoothScroll>
           <Header />
+          <Toaster position="top-right" />
           {children}
           <ScrollToTop />
           <Footer />
