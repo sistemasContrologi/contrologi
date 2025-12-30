@@ -1,6 +1,5 @@
 'use client'
 
-import FormContacto from "@/config/forms/formContacto";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
