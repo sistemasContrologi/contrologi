@@ -1,7 +1,7 @@
 'use client'
 
 import Modal from "@/components/ui/Modal";
-import FormContacto from "@/config/forms/formContacto";
+import FormContacto from "@/config/forms/(main)/formContacto";
 import { useModal } from "@/config/hooks/useModal";
 import { motion } from "framer-motion";
 import Image from "next/image";

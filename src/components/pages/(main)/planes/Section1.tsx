@@ -7,7 +7,7 @@ import Image from "next/image";
 import { CheckCircle } from "lucide-react";
 import { useModal } from "@/config/hooks/useModal";
 import Modal from "@/components/ui/Modal";
-import FormContacto from "@/config/forms/formContacto";
+import FormContacto from "@/config/forms/(main)/formContacto";
 
 // slideData e items se mantienen igual...
 const slideData = [
