@@ -55,8 +55,9 @@ export default function RootLayout({
           <Footer />
         </SmoothScroll>
         <script src="https://unpkg.com/lenis@1.3.16/dist/lenis.min.js"></script>
+        {/* WA Upnify */}
+        <script src="https://assets.upnify.com/scripts/clickToChat/js/ctcUp.js" id="clickToChat-integration" data-config="P071715B635-53CB-4FE7-B0D1-6209FC57833C"></script>
       </body>
-       
     </html>
   );
 }

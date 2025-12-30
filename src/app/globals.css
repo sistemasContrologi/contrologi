@@ -83,3 +83,8 @@ html {
   position: sticky;
   top: 120px;
 }
+
+#clickToChat-integration-container .fab__button {
+  width: 100px !important;
+  height: 100px !important;
+}
