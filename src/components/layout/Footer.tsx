@@ -119,8 +119,9 @@ export default function Footer(): JSX.Element {
         </div>
       </div>
       <div className="bg-white text-secondary text-center py-5">
-        <p className="font-medium">
-          Diseño web realizado por{" "}
+        <div className="container">
+          <p className="font-medium">
+          Diseño y desarrollo web realizado por{" "}
           <Link
             href="https://efectodigital.agency/"
             target="_blank"
@@ -130,6 +131,7 @@ export default function Footer(): JSX.Element {
             Agencia Efecto Digital
           </Link>
         </p>
+        </div>
       </div>
     </footer>
   );
