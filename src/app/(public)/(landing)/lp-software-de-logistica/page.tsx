@@ -1,5 +1,11 @@
+import Footer from "@/components/layout/Footer";
+import CartaPorte from "@/components/pages/(landing)/lp-software-de-logistica/CartaPorte";
+import { Hero } from "@/components/pages/(landing)/lp-software-de-logistica/Hero";
+import Planes from "@/components/pages/(landing)/lp-software-de-logistica/Planes";
+import Empresas from "@/components/pages/(main)/Empresas";
+import Section2 from "@/components/pages/(main)/nosotros/Section2";
+import SectionPlanes2 from "@/components/pages/(main)/planes/SectionPlanes2";
 import { Metadata } from "next";
-import Link from "next/link";
 
 
 export const metadata : Metadata = {
@@ -30,16 +36,19 @@ export const metadata : Metadata = {
 export default function LPSoftwareLogistica() {
   return (
     <main className="bg-accent! min-h-screen">
-        
-        {/* hero */}
-        <section className="relative xl:bg-[url('/img/hero-lp-software.webp')] bg-no-repeat bg-cover py-10">
+        <Hero />
 
-            <section className="container">
-                <Link href={'/'}>
-                <img src="/svg/logo-contrologi.svg" alt="Contrologi" className=""/>
-                </Link>
-            </section>
-        </section>
+        <Empresas />
+
+        <SectionPlanes2 />
+
+        <Section2/>
+
+        <CartaPorte/>
+
+        <Planes/>
+
+        <Footer/>
     </main>
   );
 }

@@ -70,13 +70,13 @@ html {
 }
 
 .swiper-pagination-bullet {
-  background-color: #04133c;
-  opacity: 50%;
+  background-color: #04133c !important;
+  opacity: 50% !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #d12d17;
-  opacity: 1;
+  background-color: #d12d17 !important;
+  opacity: 1 !important;
 }
 
 .card {

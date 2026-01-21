@@ -44,7 +44,7 @@ const slideData = [
                 <CircularCounter
                     percentage={15}
                     topText="Hasta un"
-                    bottomText=""
+                    bottomText="menos"
                     colorClass="text-primary"
                 />
                 <p className="font-bold xl:text-xl">
